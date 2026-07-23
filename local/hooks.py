@@ -242,3 +242,37 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+# doc_events = {
+#     "Customer": {
+#         "after_save": "local.api.get_customer_details"
+#     },
+#     ""
+# }
+
+#  scheduler_events = {
+#  	"daily": [
+# 		"local.customer.generate_daily_sales_report"
+# 	],
+
+# # }
+
+app_include_js = [
+    "https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"
+]
+
+app_include_css = [
+    "https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"
+]
+
+doctype_js = {"Delivery Note" : "public/js/delivery_note.js"}
+
+
+# doc_events = {
+#     "Purchase Order": {
+#         "on_update_after_submit": "local.api.update_the_checkbox",
+#         "before_insert":"local.api.validate_material_request_reference"
+#     },
+#     "Customer": {
+#         "before_save":"local.api.check_test_tab_change"
+#     }
+# }

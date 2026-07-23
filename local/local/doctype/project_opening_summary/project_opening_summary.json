@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "format:{project}-{company}-{####}",
+ "creation": "2026-03-21 15:48:19.134930",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "section_break_obuu",
+  "project",
+  "opening_procurement_value",
+  "opening_execution_value",
+  "opening_erection_billed_value",
+  "column_break_ucbf",
+  "company",
+  "opening_material_receipt_value",
+  "opening_supply_billed_value",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "section_break_obuu",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "project",
+   "fieldtype": "Link",
+   "label": "Project",
+   "options": "Project"
+  },
+  {
+   "description": "Total PO value before ERP go-live",
+   "fieldname": "opening_procurement_value",
+   "fieldtype": "Float",
+   "label": "Opening Procurement Value "
+  },
+  {
+   "description": "Total WO execution before ERP go-live",
+   "fieldname": "opening_execution_value",
+   "fieldtype": "Float",
+   "label": "Opening Execution Value"
+  },
+  {
+   "description": "Total PI (WO type) before ERP go-live",
+   "fieldname": "opening_erection_billed_value",
+   "fieldtype": "Float",
+   "label": "Opening Erection Billed Value "
+  },
+  {
+   "fieldname": "column_break_ucbf",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Link",
+   "label": "Company",
+   "options": "Company"
+  },
+  {
+   "description": "Total material received before ERP go-live",
+   "fieldname": "opening_material_receipt_value",
+   "fieldtype": "Float",
+   "label": "Opening Material Receipt Value "
+  },
+  {
+   "description": "Total PI (PO type) before ERP go-live",
+   "fieldname": "opening_supply_billed_value",
+   "fieldtype": "Float",
+   "label": "Opening Supply Billed Value"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Project Opening Summary",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Project Opening Summary",
+   "print_hide": 1,
+   "read_only": 1,
+   "search_index": 1
+  }
+ ],
+ "grid_page_length": 50,
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-03-21 15:58:21.662861",
+ "modified_by": "Administrator",
+ "module": "Local",
+ "name": "Project Opening Summary",
+ "naming_rule": "Expression",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "row_format": "Dynamic",
+ "rows_threshold_for_grid_search": 20,
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
