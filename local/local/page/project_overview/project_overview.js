@@ -7,6 +7,7 @@ frappe.pages['project-overview'].on_page_load = function(wrapper) {
 
     load_dashboard(page);
 };
+//commented out for now, will be used in future
 
 function load_dashboard(page) {
     frappe.call({
