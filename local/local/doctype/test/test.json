@@ -15,6 +15,7 @@
   "phone_number",
   "delivery",
   "amended_from",
+  "image",
   "section_break_xtwa",
   "table_cbmb"
  ],
@@ -79,13 +80,18 @@
    "fieldtype": "Table",
    "options": "product Test",
    "reqd": 1
+  },
+  {
+   "fieldname": "image",
+   "fieldtype": "Attach",
+   "label": "image"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-06-19 14:24:57.392653",
+ "modified": "2026-07-24 16:06:12.891284",
  "modified_by": "Administrator",
  "module": "Local",
  "name": "Test",
