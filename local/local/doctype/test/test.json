@@ -15,6 +15,7 @@
   "phone_number",
   "delivery",
   "amended_from",
+  "test1",
   "section_break_xtwa",
   "table_cbmb"
  ],
@@ -79,13 +80,18 @@
    "fieldtype": "Table",
    "options": "product Test",
    "reqd": 1
+  },
+  {
+   "fieldname": "test1",
+   "fieldtype": "Data",
+   "label": "test1"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-06-19 14:24:57.392653",
+ "modified": "2026-07-24 16:57:06.928775",
  "modified_by": "Administrator",
  "module": "Local",
  "name": "Test",
