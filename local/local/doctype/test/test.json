@@ -19,7 +19,6 @@
   "test_1",
   "test_2",
   "test_3",
-  "test_4",
   "section_break_xtwa",
   "table_cbmb"
  ],
@@ -104,18 +103,13 @@
    "fieldname": "test_3",
    "fieldtype": "Data",
    "label": "Test 3"
-  },
-  {
-   "fieldname": "test_4",
-   "fieldtype": "Data",
-   "label": "test 4"
   }
  ],
  "grid_page_length": 50,
  "index_web_pages_for_search": 1,
  "is_submittable": 1,
  "links": [],
- "modified": "2026-07-24 16:41:50.826353",
+ "modified": "2026-07-24 16:41:03.416693",
  "modified_by": "Administrator",
  "module": "Local",
  "name": "Test",
